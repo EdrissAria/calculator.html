@@ -1,0 +1,59 @@
+body{
+    background: skyblue;
+}
+*{
+    box-sizing: border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+}
+.container{
+    width: 375px;
+    margin: auto;
+    padding:5px;
+    height: 360px;
+    border-radius: 5px;
+    background: #022;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+input[type=text]{
+    width: 100%;
+    padding: 10px;
+    font-size:22px;
+    font-weight: bold;
+    margin-top:20px; 
+    border-radius: 5px;
+    outline: 0;
+}
+input[type=button]{
+    width: 89px;
+    float:right;
+    padding: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin: auto;
+    outline: 0;
+}
+#del{
+    width: 73%;
+    color: black;
+    background: #ff0033;
+    outline: 0;
+    float: right;
+}
+#equal{
+    color: black;
+    background: #66cc33;
+}
+#point{
+    color:black;
+    background: steelblue;
+}
+#number{
+    color:black;
+    background: #ffff66;
+}
+input[id=operator]{
+    color:black;
+    background: steelblue;
+}
